@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="masterPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" stylesheets="@styling.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.MyController">
+   <children>
+      <Pane fx:id="displayPane" layoutX="196.0" layoutY="97.0" prefHeight="353.0" prefWidth="663.0" />
+      <VBox layoutX="56.0" layoutY="97.0" prefHeight="307.0" prefWidth="99.0">
+         <children>
+            <Button fx:id="sortButton" mnemonicParsing="false" onAction="#doSorting" prefHeight="31.0" prefWidth="99.0" text="Sort">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="randomButton" mnemonicParsing="false" onAction="#randomElements" prefHeight="31.0" prefWidth="100.0" text="New">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Button>
+            <ChoiceBox fx:id="choiceBox" prefHeight="31.0" prefWidth="99.0">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </ChoiceBox>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</Pane>

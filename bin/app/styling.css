@@ -1,0 +1,42 @@
+.button {
+	-fx-font-weight: bold;
+	-fx-background-color: #2f4f4f;
+	-fx-background-radius: 16;
+	-fx-font-size: 12;
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+
+.button:hover {
+	-fx-background-color: white;
+	-fx-text-fill: #2f4f4f;
+}
+
+.choice-box {
+	-fx-font-weight: bold;
+	-fx-background-color: #2f4f4f;
+	-fx-background-radius: 16;
+	-fx-font-size: 12;
+	-fx-mark-color: white;
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+
+.choice-box:hover {
+	-fx-background-color: white;
+	-fx-mark-color: #2f4f4f;
+}
+
+.choice-box > .label {
+	-fx-text-fill: white;
+}
+
+.choice-box:hover > .label {
+	-fx-text-fill: #2f4f4f;
+}
+
+.choice-box .menu-item:focused > .label { -fx-text-fill:  #2f4f4f; }
+
+.choice-box .menu-item > .label {
+	-fx-text-fill: black;
+}
